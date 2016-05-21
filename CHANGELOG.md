@@ -14,7 +14,7 @@ Contributors: please follow the recommendations outlined at [keepachangelog.com]
   - See [shakacode/react-webpack-rails-tutorial/pull/287](https://github.com/shakacode/react-webpack-rails-tutorial/pull/287) for an    example of upgrading from v5.
   
   - To configure the asset compliation you can either
-    1. Specify a `config/react_on_rails` setting for `npm_build_production_command` to be nil to turn this feature off.
+    1. Specify a `config/react_on_rails` setting for `npm_build_production_command` to be nil to turn this feature off. **to turn what feature off?**
     2. Specify the script command you want to run to build your production assets, and remove your assets.rake file.
 
   - If you are using the ReactOnRails test helper, then you will need to add the 'config.npm_build_test_command' to your config to tell react_on_rails what command to run when you run rspec.
